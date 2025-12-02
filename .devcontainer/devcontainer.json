@@ -1,0 +1,11 @@
+{
+  "name": "Docker Enabled Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "moby": false
+    }
+  },
+  "forwardPorts": [8006,10000,6900,5900]
+}
